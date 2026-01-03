@@ -1,0 +1,337 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Arial;
+    border:border-box;
+}
+.border:hover {
+    border: 3px solid rgb(24, 24, 23);
+}
+header {
+    height:100px;
+}
+.text-bottom {
+    position: absolute;
+    bottom: 1px;
+    color:#c2e0b8;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    
+    font-size: 16px; /* Adjust font size */
+    text-align:center;
+}
+.navbar {
+    height: 100px;
+    background-color:#43291F;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+    font-size: 20px;
+}
+.navbar-logo {
+    background-image: url("restaurant\ logo.jpg");
+    height:90px;
+    width: 150px;
+    background-size:cover;
+    border-radius: 2px;
+}
+.title {
+    height:40px;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(250, 250, 248);
+    font-family: times new roman;
+    font-weight: 2px;
+    margin-top: 18px;
+}
+.menu {
+    color:none;
+    display:flex;
+    flex-direction: row;
+}
+.foodicon {
+    margin-right: 4px;
+    color:#c2e0b8
+}
+.search {
+    height:28px;
+    width:40%;
+    background-color:rgb(241, 237, 237);
+}
+.heroblock {
+    height:700px;
+    background-color:#F4F0BB;
+    display:flex;
+    align-items: center;
+}
+.blockone {
+    height:650px;
+    width:20%;
+    background-color: #226F54;
+    margin-right:12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.blockone1 {
+    height:600px;
+    width:280px;
+    flex-direction: column;
+    
+    ;
+}
+.blocktwo {
+    height:650px;
+    width:50%;
+    background-color:#226F54;
+    margin-right:3px;
+   
+}
+.blocktwo1 {
+    margin-left: 5px;
+    margin-right: 5px;
+   
+}
+.blockthree {
+    height:650px;
+    width:30%;
+    background-color:#226F54;
+    margin-right:4px;
+}
+.lineone {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:16.5px;
+}
+.l11, .l12, .l13 {
+    flex:1;
+    height:auto;
+    width: 35rem;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+    /* text-align: */
+}
+.l11 {
+    background-image: url("project2-2.jpg");
+}
+.l12 {
+    background-image: url("project2-3.jpg");
+}
+.l13 {
+    background-image: url("project2-4.jpg");
+}
+.linetwo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 16.5px;
+}
+.l21, .l22, .l23, .l24 {
+    flex: 1;
+    height: auto;
+    width: 25rem;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.l21 {
+    background-image: url("project2-6.jpg");
+}
+.l22 {
+    background-image: url("project2-7.jpg");
+}
+.l23 {
+    background-image: url("project2-8.jpg");
+}
+.l24 {
+    background-image: url("project2-10.jpg");
+}
+.linethree {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 16.5px;
+}
+.l31, .l32, .l33 {
+    flex: 1;
+    height: auto;
+    width: 25rem;
+    height: 210px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.l31 {
+    background-image: url("project2-11.jpg");
+    position: relative;
+}
+.l32 {
+    background-image: url("project2-12.jpg");
+    position: relative;
+   
+}
+.l33 {
+    background-image: url("project2-13.png");
+    position: relative;
+   
+}
+.blockthree {
+    display: flex;
+}
+.blockthree1 {
+    display:flex;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.linefour {
+    margin-top:5px;
+    flex-direction: column;
+}
+.l41, .l42, .l43, .l44 {
+    height:210px;
+    width:230px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    position: relative;
+    background-position: center;
+
+}
+.l41 {
+    background-image: url("project2.2-1.jpg");
+}
+.l42 {
+    background-image: url("project2.2-2.webp");
+}
+.l43 {
+    background-image: url("project2.2-3.jpg");
+    color:#43291F;
+}
+.linefive {
+    margin-top:20px;
+    flex-direction: column;
+}
+.l51, .l52 {
+    height:300px;
+    width:200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.l51 {
+    
+    background-image:url("project2.2-4.jpg")
+}
+.l52 {
+   
+    background-image:url("project2.2-5.png")
+}
+.icecreams {
+    height:180px;
+    width:280px;
+    font-style: oblique;
+    font-family: cursive;
+    text-align: center;
+    display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    font-size: larger;
+    background-color:blanchedalmond;
+    font-weight:550;
+    color:rgb(14, 39, 61);
+    text-decoration: underline;
+    text-decoration-thickness:1.5px ;
+}
+.shakes {
+    height:180px;
+    width:280px;
+    background-color:blanchedalmond;
+    margin-top:22px;
+    font-style: oblique;
+    font-family: cursive;
+    text-align: center;
+    display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    font-size: larger;
+    font-weight:550;
+    color:rgb(14, 39, 61);
+    text-decoration: underline;
+    text-decoration-thickness:1.5px ;
+}
+.beverages {
+    height:180px;
+    width:28opx;
+    background-color:blanchedalmond;
+    margin-top:22px;
+    font-style: oblique;
+    font-family: cursive;
+    text-align: center;
+    display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    font-size: larger;
+    font-weight:550;
+    color:rgb(14, 39, 61);
+    text-decoration: underline;
+    text-decoration-thickness:1.5px ;
+}
+.header1, .header2, .header3 {
+    margin-bottom:20px;
+}
+footer {
+    height:250px;
+    background-color: rgb(102, 21, 21);
+}
+.address {
+    height:200px;
+    background-color: #43291F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+}
+h3 {
+  padding-bottom: 20px;
+  color: white;
+}
+.lastone, .lasttwo, .lastthree, .lastfour {
+    margin-left: 100px;
+    margin-right: 40px;
+}
+.enddetails {
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+   
+}
+.enddetails p {
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+    margin-right: 100px; 
+   
+}
+h5 {
+    margin-right: 100px; 
+}
+
