@@ -13,11 +13,11 @@ Technologies Used
 - CSS3
 
 Project Structure
+
 project-folder/
-│
-├── index.html
-├── style.css
-└── assets/ (images or other resources)
+index.html
+style.css
+assets/ (images or other resources)
 
 Purpose of the Project
 The purpose of this project is to practice frontend development skills by building a structured and visually appealing web interface using core web technologies.
